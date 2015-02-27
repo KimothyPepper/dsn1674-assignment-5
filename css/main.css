@@ -25,6 +25,7 @@ nav {
   background-color: #d05c2e;
   text-align:center;
 
+
 }
  nav ol {
    padding:0;
@@ -35,6 +36,8 @@ nav {
 
 nav li {
   display:inline;
+
+
 }
 
 nav a:hover {
@@ -49,6 +52,8 @@ nav a {
   color:white;
   text-decoration:none;
   margin:1px;
+  border:solid black;
+  border-width:1px;
 }
 .gleft{
   float:left;
@@ -94,7 +99,7 @@ h1{
 }
 
 figcaption {
-  color:white;
+  color:white;s
 }
 .after {
 
