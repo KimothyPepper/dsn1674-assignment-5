@@ -26,6 +26,12 @@ nav {
   text-align:center;
 
 }
+ nav ol {
+   padding:0;
+ }
+.nav {
+  width: 32.333%;
+}
 
 nav li {
   display:inline;
@@ -74,8 +80,11 @@ h1{
 
 .inset-left-2 {
   float:right;
-  width: 20%;
-  margin-right: 15px;
+  width: 30%;
+  margin-right 15px ;
+  margin:0 0 1rem 0.5rem;
+  clear:right;
+
 
 
 }
@@ -120,19 +129,49 @@ aside {
 
 }
 
+.rice, .oats {
+  float:left;
+  width:100%;
+  margin:0;
+}
 .pea, .bea, .lent {
   float:left;
-  width: 20%;
+  clear:left;
+  width: 30%;
+  margin:0 0 1rem 0;
 
 }
+figure{
+   margin:0;
+ }
+.imagefloat {
 
+  float:left;
+  width:50%;
+}
 
+h2{
+  text-align:center;
 
+}
+figcaption {
+  text-align:center;
+  font-style:italic;
 
+}
 footer {
   background-color: #d05c2e;
   padding:1em;
   margin:0;
   text-align:center;
+  clear:left;
 
+}
+
+.famous{
+  background-color:#d05c2e;
+}
+
+.corn {
+  width:100%;
 }
