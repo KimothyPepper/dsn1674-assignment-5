@@ -67,13 +67,15 @@ nav a {
 }
 .gleft{
   float:left;
-  width:10%;
+  width:13%;
+  margin-top:1rem;
 
 }
 .gright {
 
   float:right;
-  width:10%;
+  width:13%;
+  margin-top:1rem;
 }
 
 .hidden {
@@ -84,7 +86,7 @@ h1{
   color: #fff;
   text-align:center;
   font-family: 'Merriweather', serif;
-  margin:0 0 0 4rem;
+  margin:1rem 0 0 4rem;
   float:left;
 
 }
@@ -93,7 +95,7 @@ h1{
   width: 35%;
   margin-right: 15px;
   margin-top:15px;
-  margin-left:15px;
+
 }
 
 .inset-left-2 {
@@ -132,6 +134,7 @@ div {
   /*Remind the element to wrap around its floated children*/
   overflow:hidden;
   clear:both;
+
 }
 
 
@@ -188,7 +191,7 @@ figcaption {
 }
 footer {
   background-color: #d05c2e;
-  padding:1em;
+  padding:0.5em;
   margin:0;
   text-align:center;
   clear:left;
@@ -196,7 +199,7 @@ footer {
 }
 
 .famous{
-  background-color:#d05c2e;
+  background-color:#dc8252;
 }
 
 .corn {
@@ -212,7 +215,7 @@ li {
   float:left;
   margin:0;
   padding:0;
-  border:solid black;
+  border:solid #a93f35;
   border-width:1px;
 
 }
