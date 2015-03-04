@@ -64,7 +64,7 @@ nav a {
 .gleft{
   float:left;
   width:10%;
-  
+
 }
 .gright {
 
@@ -125,6 +125,7 @@ div {
 
   /*Remind the element to wrap around its floated children*/
   overflow:hidden;
+  clear:both;
 }
 
 
@@ -207,4 +208,8 @@ li {
   border:solid black;
   border-width:1px;
 
+}
+
+.Grains {
+  color:white;
 }
