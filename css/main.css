@@ -40,26 +40,31 @@ nav li {
   display:inline;
 
 
+
 }
 
 nav a:hover {
   background-color:#a93f35;
+
+
 }
 
 nav a {
   display:inline-block;
   text-align:center;
-  padding:0.5em 0.75em ;
+  padding:0.5rem 0rem 0.5rem 0rem;
   background-color:#d05c2e;
   color:white;
   text-decoration:none;
   margin:1px;
+  width:100%;
 
 
 }
 .gleft{
   float:left;
   width:10%;
+  
 }
 .gright {
 
